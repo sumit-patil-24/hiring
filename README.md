@@ -164,6 +164,8 @@ terraform apply
  - t3.medium instance on public subnet
  - t3.large instance  on private subnet
  - route tables
+   
+<img width="1541" height="423" alt="Screenshot 2026-05-20 124123" src="https://github.com/user-attachments/assets/f4abf20e-87ed-41d4-be61-7d3464fdf0ed" />
 
 ## network flow of request
 ```
@@ -185,3 +187,18 @@ Internet
 Private VM outbound internet:
 Private VM → NAT Gateway → Internet Gateway
 ```
+
+## instances running
+<img width="1579" height="368" alt="Screenshot 2026-05-20 124352" src="https://github.com/user-attachments/assets/1950e70d-f177-47ed-8328-21c5fe30e7cf" />
+
+## running interface worker
+<img width="1769" height="366" alt="Screenshot 2026-05-20 124333" src="https://github.com/user-attachments/assets/1eeb60be-0b7b-43f9-804b-a07bde744bcb" />
+
+## running caller worker
+<img width="1156" height="433" alt="Screenshot 2026-05-20 124313" src="https://github.com/user-attachments/assets/b9c7821c-4067-4c63-b7d2-bf9e3d64c08f" />
+
+## running **iii --config config.yaml** command
+<img width="1001" height="240" alt="Screenshot 2026-05-20 124225" src="https://github.com/user-attachments/assets/6edb1d0a-9ac6-4c90-b03c-36ec31637ad0" />
+
+## making curl request
+<img width="1770" height="437" alt="Screenshot 2026-05-20 124146" src="https://github.com/user-attachments/assets/614e44c3-6759-48fb-a140-2e63f383e5c9" />
